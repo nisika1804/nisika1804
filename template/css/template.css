@@ -1,0 +1,186 @@
+/*
+ *  ***** CSS Document *****
+ */
+
+/* 
+ *  ----- TAG -----
+ */
+body{
+	font-weight: 100;
+	font-size: 12px;
+	/* font-family: "ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3"; */
+	color: #000000;
+	background-color: white;
+	/* margin-left: 200px; */
+	/* margin: 0 auto 0 200px ; */
+	/* text-align: center;	 */
+}
+
+div{
+	margin-bottom: -4px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: -1px;
+	padding: 0px;
+}
+
+img{
+	border: 0px;
+}
+
+
+/*
+ *  ----- class -----
+ */
+.fleft{
+	float: left;
+}
+
+.fclose{
+	clear: both;
+}
+
+.item{
+	color: #0000FF;
+	background-color: white;
+}
+
+.more{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+
+div.center{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.PDF{
+	display: inline;
+}
+
+
+/* ÇÕÇµÇ‡Ç∆Ç™Ç¢Ç∂ÇËÇ‹ÇµÇΩÅD */ 
+dl.minfo, dl.prof{
+	margin: 0;
+	padding: 0;
+}
+
+dl.prof dd {
+	margin: 0 0 0 10px ;
+	padding: 0 0 1px 0; 
+	
+}
+
+
+dl.minfo dd  {
+	margin: 0 0 0 10px ;
+	padding: 0 0 3px 0; 
+	line-height: 150%;
+}
+
+
+dl.minfo dd ol{
+	/* margin: 0 0 0 0px ; */
+	padding: 0 0 0 10px;
+}
+
+dl.minfo dd ol li{
+	margin: 0 0 0 0px ;
+	padding: 0 0 0 0px;
+}
+
+/* Ç±Ç±Ç‹Ç≈ */ 
+
+
+/*
+ *  ----- ID -----
+ */
+/* ----- ëSëÃ ----- */
+
+#CENTER{
+	margin-left:auto;
+	margin-right:auto;
+	width: 600px;
+}
+
+
+#HEADER{
+	width: 600px;
+}
+
+#FOOTER{
+	width: 600px;
+}
+
+
+#MAIN{
+	width: 600px;
+}
+
+#LOGO{
+	margin-left:475px;
+}
+
+
+/* ----- MAINì‡ïî ----- */
+#LEFTSIDE{
+	width: 222px;
+}
+
+#RIGHTSIDE{
+	width: 378px;
+}
+
+
+/* ----- Profile ----- */
+#PLBAR{
+	width: 45px;
+}
+
+#PMAIN{
+	width: 142px;
+}
+
+
+#PRBAR{
+	width: 35px;
+}
+
+
+#PMAIN div img {
+	margin-left: 21px;
+	margin-right: 21px;
+}
+
+
+/* ----- Favorite ----- */
+#FLBAR{
+	width: 45px;
+}
+
+#FMAIN{
+	width: 142px;
+}
+
+#FRBAR{
+	width: 35px;
+}
+
+
+/* ----- MoreInfomation ----- */
+#MLBAR{
+	width: 30px;
+}
+
+#MMAIN{
+	width: 298px;
+	padding: 5px 0 0 0;
+}
+
+#MRBAR{
+	width: 50px;
+}
+
